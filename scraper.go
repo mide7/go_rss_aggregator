@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	db "github.com/mide7/go/rss_aggregator/db/sqlc"
+	db "github.com/mide7/go_rss_aggregator/db/sqlc"
 )
 
 func startScraping(database *db.Queries, concurrency int, timeBetweenRequest time.Duration) {

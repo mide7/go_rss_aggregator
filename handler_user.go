@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	db "github.com/mide7/go/rss_aggregator/db/sqlc"
+	db "github.com/mide7/go_rss_aggregator/db/sqlc"
 )
 
 func (apiCfg *apiConfig) handleCreateUser(w http.ResponseWriter, r *http.Request) {

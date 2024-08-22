@@ -1,4 +1,4 @@
-module github.com/mide7/go/rss_aggregator
+module github.com/mide7/go_rss_aggregator
 
 go 1.22.5
 

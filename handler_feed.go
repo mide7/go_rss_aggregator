@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	db "github.com/mide7/go/rss_aggregator/db/sqlc"
+	db "github.com/mide7/go_rss_aggregator/db/sqlc"
 )
 
 func (apiCfg *apiConfig) handleCreateFeed(w http.ResponseWriter, r *http.Request, user db.User) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	db "github.com/mide7/go/rss_aggregator/db/sqlc"
-	"github.com/mide7/go/rss_aggregator/internal/auth"
+	db "github.com/mide7/go_rss_aggregator/db/sqlc"
+	"github.com/mide7/go_rss_aggregator/internal/auth"
 )
 
 type authedHandler func(http.ResponseWriter, *http.Request, db.User)

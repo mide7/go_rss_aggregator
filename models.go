@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	db "github.com/mide7/go/rss_aggregator/db/sqlc"
+	db "github.com/mide7/go_rss_aggregator/db/sqlc"
 )
 
 type User struct {
